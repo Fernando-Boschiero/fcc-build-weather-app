@@ -39,7 +39,7 @@ Select a city from the dropdown and click **Get Weather** to see the current wea
   - Fetch API
   - DOM manipulation
   - Template literals
-  - 
+    
 ## How to Use
  
 1. Clone the repository
@@ -47,7 +47,7 @@ Select a city from the dropdown and click **Get Weather** to see the current wea
 3. Select a city from the dropdown menu
 4. Click the **Get Weather** button
 5. Weather information will appear on the right side of the card
-6. 
+   
 ## API
  
 This project uses the [freeCodeCamp Weather Proxy API](https://weather-proxy.freecodecamp.rocks/api/city/<CITY>).
@@ -55,7 +55,7 @@ This project uses the [freeCodeCamp Weather Proxy API](https://weather-proxy.fre
 - Data is returned in the **metric system**
 - Temperature in **Celsius**
 - Wind speed in **m/s**
-- 
+  
 ## Project Structure
  
 ```
@@ -73,7 +73,7 @@ weather-app/
 - Handling API errors gracefully
 - CSS animations and transitions for a better user experience
 - Working with oklch color space for modern, accessible color design
-- 
+  
 ## License
  
 This project was built as part of the [freeCodeCamp](https://www.freecodecamp.org) Full Stack Developer Curriculum.
