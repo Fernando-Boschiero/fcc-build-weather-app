@@ -5,6 +5,10 @@ A vanilla JavaScript weather app that fetches real-time weather data based on th
 ## Demo
  
 Select a city from the dropdown and click **Get Weather** to see the current weather conditions displayed in a clean, animated card layout.
+
+## Screenshots
+
+<img width="930" height="410" alt="weather-app" src="https://github.com/user-attachments/assets/c1635a9e-0fd9-4350-bcfb-50c80717223a" />
  
 ## Features
  
