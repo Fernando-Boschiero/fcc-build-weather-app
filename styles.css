@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100dvw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "poppins", "sans-serif";
+}
+
+.main-card {
+  width: 760px;
+  display: flex;
+  background: oklch(0.99 0.005 60);
+  border-radius: 28px;
+  box-shadow: 0 28px 56px -24px rgba(120, 60, 20, 0.32);
+  overflow: hidden;
+}
+
+.left-side {
+  flex: 1;
+  padding: 36px 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.right-side {
+  width: 340px;
+  background: linear-gradient(200deg, oklch(0.78 0.1 50), oklch(0.68 0.14 35));
+  padding: 45px 30px;
+  color: #fff;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.2rem;
+}
+
+.visible {
+  display: flex;
+}
+
+.img-weatherMain {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 45%;
+}
+
+select {
+  font-size: 1.2rem;
+  padding: 6px 5px 6px 10px;
+  height: 45px;
+  background: rgba(120, 60, 20, 0.1);
+  border-radius: 15px;
+}
+
+button {
+  font-size: 1.2rem;
+  padding: 6px;
+  height: 45px;
+  background: linear-gradient(200deg, oklch(0.68 0.14 35), oklch(0.78 0.1 50));
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+}
+
+label {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+p {
+  display: flex;
+  justify-content: space-between;
+}

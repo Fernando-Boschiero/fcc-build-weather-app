@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet" />
+    <link href="styles.css" rel="stylesheet" />
+    <title>Weather App</title>
+  </head>
+  <body>
+    <div class="main-card">
+      <div class="left-side">
+        <label for="select-city">Choose City</label>
+        <select name="" id="select-city">
+          <option value=""></option>
+          <option value="new york">New York</option>
+          <option value="los angeles">Los Angeles</option>
+          <option value="chicago">Chicago</option>
+          <option value="paris">Paris</option>
+          <option value="tokyo">Tokyo</option>
+          <option value="london">London</option>
+        </select>
+        <button id="get-weather-btn">Get Weather</button>
+        <p id="humidity"></p>
+        <p id="wind"></p>
+        <p id="wind-gust"></p>
+      </div>
+      <div class="right-side">
+        <p id="location"></p>
+        <div class="img-weatherMain">
+          <img id="weather-icon" src="" alt="" />
+          <p id="weather-main"></p>
+        </div>
+
+        <h1 id="main-temperature"></h1>
+        <p id="feels-like"></p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
